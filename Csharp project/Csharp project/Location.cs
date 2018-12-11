@@ -9,30 +9,27 @@ namespace Csharp_project
     class Location
     {
         string LocationName;
-        int StreetNumber;
-        string StreetName;
+        string StreetNameAndNumber;
         string County;
         string Postcode;
-        int Latitude;
-        int Longtitude;
+        double Latitude;
+        double Longtitude;
         Year[] AllYears;
 
-        public Location(string inName, int inStreetNo, string inStreetName, string inCounty, string inPostcode, int inLat, int inLong)
+        public Location(string inName, string inStreetNameAndNo, string inCounty, string inPostcode, double inLat, double inLong)
         {
             LocationName = inName;
-            StreetNumber = inStreetNo;
-            StreetName = inStreetName;
+            StreetNameAndNumber = inStreetNameAndNo;
             County = inCounty;
             Postcode = inPostcode;
             Latitude = inLat;
             Longtitude = inLong;
             AllYears = null;
         }
-        public Location(string inName, int inStreetNo, string inStreetName, string inCounty, string inPostcode, int inLat, int inLong, Year[] inAllYears)
+        public Location(string inName, string inStreetNameAndNo, string inCounty, string inPostcode, double inLat, double inLong, Year[] inAllYears)
         {
             LocationName = inName;
-            StreetNumber = inStreetNo;
-            StreetName = inStreetName;
+            StreetNameAndNumber = inStreetNameAndNo;
             County = inCounty;
             Postcode = inPostcode;
             Latitude = inLat;
@@ -44,13 +41,9 @@ namespace Csharp_project
         {
             LocationName = inName;
         }
-        public void setStreetNumber(int inStreetNo)
+        public void setStreetName(string inStreetNameAndNo)
         {
-            StreetNumber = inStreetNo;
-        }
-        public void setStreetName(string inStreetName)
-        {
-            StreetName = inStreetName;
+            StreetNameAndNumber = inStreetNameAndNo;
         }
         public void setCounty(string inCounty)
         {
@@ -77,13 +70,9 @@ namespace Csharp_project
         {
             return LocationName;
         }
-        public int getStreetNumber()
+        public string getStreetNameAndNumber()
         {
-            return StreetNumber;
-        }
-        public string getStreetName()
-        {
-            return StreetName;
+            return StreetNameAndNumber;
         }
         public string getCounty()
         {
@@ -93,11 +82,11 @@ namespace Csharp_project
         {
             return Postcode;
         }
-        public int getLatitude()
+        public double getLatitude()
         {
             return Latitude;
         }
-        public int getLongtitude()
+        public double getLongtitude()
         {
             return Longtitude;
         }
