@@ -1,1 +1,10 @@
 c:\users\ellio\documents\visual studio 2015\Projects\Csharp project\Csharp project\bin\Debug\Csharp project.exe.config
+C:\Users\ellio\Source\Repos\Soft152Coursework\Csharp project\Csharp project\obj\Debug\Csharp project.csprojResolveAssemblyReference.cache
+C:\Users\ellio\Source\Repos\Soft152Coursework\Csharp project\Csharp project\obj\Debug\Csharp_project.frmMenu.resources
+C:\Users\ellio\Source\Repos\Soft152Coursework\Csharp project\Csharp project\obj\Debug\Csharp_project.Properties.Resources.resources
+C:\Users\ellio\Source\Repos\Soft152Coursework\Csharp project\Csharp project\obj\Debug\Csharp project.csproj.GenerateResource.Cache
+C:\Users\ellio\Source\Repos\Soft152Coursework\Csharp project\Csharp project\bin\Debug\Csharp project.exe.config
+C:\Users\ellio\Source\Repos\Soft152Coursework\Csharp project\Csharp project\bin\Debug\Csharp project.exe
+C:\Users\ellio\Source\Repos\Soft152Coursework\Csharp project\Csharp project\bin\Debug\Csharp project.pdb
+C:\Users\ellio\Source\Repos\Soft152Coursework\Csharp project\Csharp project\obj\Debug\Csharp project.exe
+C:\Users\ellio\Source\Repos\Soft152Coursework\Csharp project\Csharp project\obj\Debug\Csharp project.pdb

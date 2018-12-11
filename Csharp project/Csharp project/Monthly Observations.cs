@@ -9,13 +9,13 @@ namespace Csharp_project
     class Monthly_Observations
     {
         int MonthIDNumber;
-        int MaximumTemperature;
-        int MinimumTemperature;
-        int NumberofDaysofAirFrost;
-        int MillimetresofRainfall;
-        int HoursofSunshine;
+        double MaximumTemperature;
+        double MinimumTemperature;
+        double NumberofDaysofAirFrost;
+        double MillimetresofRainfall;
+        double HoursofSunshine;
 
-        public Monthly_Observations(int MonthID, int MaxTemp, int MinTemp, int NoAirFrost, int MilimetresRainfall, int HoursSunshine)
+        public Monthly_Observations(int MonthID, double MaxTemp, double MinTemp, double NoAirFrost, double MilimetresRainfall, double HoursSunshine)
         {
             MonthIDNumber = MonthID;
             MaximumTemperature = MaxTemp;
@@ -54,23 +54,23 @@ namespace Csharp_project
         {
             return MonthIDNumber;
         }
-        public int getMaxTemp()
+        public double getMaxTemp()
         {
             return MaximumTemperature;
         }
-        public int getMinTemp()
+        public double getMinTemp()
         {
             return MinimumTemperature;
         }
-        public int getNumAirFrost()
+        public double getNumAirFrost()
         {
             return NumberofDaysofAirFrost;
         }
-        public int getRainfall()
+        public double getRainfall()
         {
             return MillimetresofRainfall;
         }
-        public int getHoursSunshine()
+        public double getHoursSunshine()
         {
             return HoursofSunshine;
         }
